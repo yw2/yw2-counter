@@ -32,5 +32,6 @@ Create a new counter (on action bar): creates a new counter, and it will be save
 Counter list (on action bar): view the counters and increment the count.
 
 Some resources I used: 
+
 https://developer.android.com/intl/zh-cn/training/basics/actionbar/index.html 
 http://simpledeveloper.com/how-to-build-simple-counter-android-app/
