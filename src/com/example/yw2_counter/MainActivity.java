@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	Button reset;
 	TextView counts;
 	int count;
+	protected static final String FILENAME = "file.sav";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +74,6 @@ public class MainActivity extends Activity implements OnClickListener{
 		saveInFile(count);
 	}
 	
-	protected static final String FILENAME = "file.sav";
 
 	protected int loadFromFile() {
 		try {

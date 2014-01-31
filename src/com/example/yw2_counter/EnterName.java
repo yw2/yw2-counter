@@ -16,6 +16,7 @@ import android.widget.EditText;
 
 public class EnterName extends Activity {
 	public EditText editName;
+	protected static final String FILENAME1 = "file1.sav";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +37,6 @@ public class EnterName extends Activity {
 
 	}
 	
-	protected static final String FILENAME1 = "file1.sav";
-
 	protected void saveInFile(String counterName) {
 		// TODO Auto-generated method stub
 		try {
