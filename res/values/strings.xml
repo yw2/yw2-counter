@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">yw2-counter</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_save">Save</string>
+    <string name="action_newCounter">newCounter</string>
+    <string name="action_list">list</string>
+    <string name="title_activity_enter_name">Create A New Counter</string>
+    <string name="edit_name">Enter A Name</string>
+    <string name="title_activity_counter_list">CounterList</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

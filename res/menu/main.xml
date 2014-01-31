@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  	xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item 
+        android:id="@+id/action_newCounter"
+        android:icon="@drawable/ic_action_new"
+     	android:title="@string/action_newCounter"
+     	android:showAsAction="ifRoom" />
+    
+    <item 
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_action_view_as_list"
+     	android:title="@string/action_list"
+     	android:showAsAction="ifRoom" />
+
+</menu>
