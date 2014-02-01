@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		counts.setTextSize(70);
 	}
 	
+	// load count from file
 	protected void onStart() {
 		super.onStart();
 		count = loadFromFile();
@@ -50,6 +51,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		counts.setGravity(Gravity.CENTER);
 	}
 	
+	// actual implementation on counter
 	@Override
 	public void onClick(View view) {
 		if (view == add) {
@@ -74,7 +76,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		saveInFile(count);
 	}
 	
-
+	// load function
 	protected int loadFromFile() {
 		try {
 			FileInputStream fis = openFileInput(FILENAME);
@@ -90,6 +92,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		return count;
 	}
 	
+	//save function
 	protected void saveInFile(int count2) {
 		// TODO Auto-generated method stub
 		try {
@@ -106,6 +109,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		}
 	}
 	
+	// implement the action bar
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

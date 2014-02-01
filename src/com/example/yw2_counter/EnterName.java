@@ -18,6 +18,7 @@ public class EnterName extends Activity {
 	public EditText editName;
 	protected static final String FILENAME1 = "file1.sav";
 
+	// save the name of a new counter to file1.sav
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -37,6 +38,7 @@ public class EnterName extends Activity {
 
 	}
 	
+	// save function
 	protected void saveInFile(String counterName) {
 		// TODO Auto-generated method stub
 		try {
@@ -53,6 +55,7 @@ public class EnterName extends Activity {
 		}
 	}
 
+	// implement the action bar
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

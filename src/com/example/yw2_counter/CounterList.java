@@ -25,6 +25,7 @@ public class CounterList extends Activity {
 	TextView countersView;
 	protected static final String FILENAME2 = "file1.sav";
 	
+	// load counter names from file1.sav
 	protected String[] loadFromFile() {
 		ArrayList<String> counters = new ArrayList<String>();
 		try {
@@ -45,6 +46,7 @@ public class CounterList extends Activity {
 		return counters.toArray(new String[counters.size()]);
 	}
 
+	// implement the action bar
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
