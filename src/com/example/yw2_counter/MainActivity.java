@@ -145,3 +145,8 @@ public class MainActivity extends Activity implements OnClickListener{
 	}
 	
 }
+
+/*Credit:
+	ELISHA CHIRCHIR, "How To Build Simple Counter Android App", 
+	http://simpledeveloper.com/how-to-build-simple-counter-android-app/, June 27, 2013
+*/
